@@ -1,0 +1,341 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.logo{
+    
+        background: whitesmoke;
+        padding: 7px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: auto;
+        color: #6c757d;
+    }
+    .downdrop{
+        position: relative;
+        top: 8px;
+        
+    }
+    a {
+        margin: 50px;
+        text-decoration: none;
+        color: #6c757d;
+        font-family: auto;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: rgba(95, 158, 160, 0.71);
+    }
+
+    .text {
+            height: 700px;
+            text-align: center;
+            position: relative;
+            /* top: 350px; */
+            /* background: url(images/william-warby-ld4wZGqlLF4-unsplash.jpg); */
+            text-transform: capitalize;
+        }
+        .backImg{
+            width: 100%;
+            height: 600px;
+        
+        }
+        .towElementFirst{
+            position: relative;
+            top: -338px;
+        }
+    h1{
+        font-size: 54px;
+    font-family: auto;
+    color: #6c757d;
+    }
+    .inteduction{
+        font-size: unset;
+        font-weight: bold;
+        color: #6c757d9f;
+        position: relative;
+        top: -10px;
+    }
+    .nameOfCreate{
+        color: red;
+        border-bottom: 1px solid red;
+        border-width: 50%;
+    }
+
+    .threeIcons{
+     display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 400px;
+    position: relative;
+    top: -94px;
+    justify-content: space-around;
+    }
+    .firstFlex, .secondFlex,.threthFlex{
+        margin: 25px 0px;
+    }
+    .titleForIcon{
+        font-weight: bold;
+        text-transform: capitalize;
+        font-family: math;
+        margin: 20px 0;
+        position: relative;
+        top: -40px;
+        
+    }
+    .bi{
+        width: 50px;
+        height: 50px;
+        color: aqua;
+       margin: 50px 0;
+    }
+    .textForFirstIcon1{
+        padding: 0 80px;
+        font-size: large;
+        font-weight: bold;
+        color: #80808078;
+        position: relative;
+        top: 5px;
+    }
+.services{
+    position: relative;
+    top: -102px;
+}
+.titileServices{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+   color:  rgb(219 219 219);
+}
+.textBloweTheTitle{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: #8080806b;
+    position: relative;
+    top: -24px;
+}
+.sectionFlexService{
+    display: flex;
+    margin: 0px 144px;
+}
+.titleForIcon{
+    font-size: 30px;
+    position: relative;
+    margin: 10px;
+    top: 3px;
+}
+.textForFirstIcon{
+    margin: 0 180px 0 52px;
+    position: relative;
+    top: -33px;
+    color: #80808078;
+}
+.secondImg{
+    position: relative;
+    top: 29px;
+    border-radius: 13px;
+    left: 42px;
+    z-index: 1;
+
+}
+.debogo{
+    width: 75px;
+    height: 446px;
+    display: block;
+    background: #55776b;
+    position: absolute;
+    top: 186px;
+    right: 65px;
+}
+.portfolio{
+    background: rgba(245, 245, 245, 0.997);
+    height: 608px;
+}
+.titlePortflio{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(219 219 219);
+}
+.textThePortfolio{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(219 219 219);
+    position: relative;
+    top: -24px;
+}
+.threeSectionForImg{
+    display: flex;
+    justify-content: center;
+    }
+.firstImgPortfolio,.secondImgPortfolio,.thirtImgPortfolio{
+    width: 308px;
+    background: white;
+    margin: 44px 10px;
+}
+.imgPort{
+    width: 100%;
+}
+.titleForFirstImg,.titleForSecondImg,.titleForThirtImg{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.textforFirstImg,.textforSecondImg,.textforThirtImg{
+    margin: 10px;
+    color: #808080e8;
+}
+.titleForAbout{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(219 219 219);
+}
+.textForSectionAbout{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(219 219 219);
+    position: relative;
+    top: -24px;
+}
+
+.sectionAbout{
+    display: flex;
+}
+.imgforAbout{
+    margin: 0 197px;
+}
+
+.textForAboutGras{
+    margin: 0 62px;
+    font-weight: bold;
+}
+.herLine{
+    width: 150px;
+    height: 3px;
+    background: antiquewhite;
+    margin: 36px 68px;
+    color: rgba(95, 158, 160, 0.71);
+}
+.otherTextForAbout{
+    margin: 0 62px;
+    
+}
+.flexForText{
+    position: relative;
+    top: 100px;
+}
+.contact{
+    height: 450px;
+    background: whitesmoke;
+}
+.titleForContact{
+  
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+   color:  rgb(219 219 219);
+}
+.textForContact{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: #8080806b;
+    position: relative;
+    top: 75px;
+}
+.textDerctionForContact{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 39px;
+    font-weight: bold;
+    color: dimgrey;
+}
+.email{
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+}
+.foundUs{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+
+footer{
+    background: #796c6c;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.end{
+    color: aqua;
+}
+    /* Small */
+@media (max-width: 828px) {
+    a {
+      display: none;
+    }
+    .inteduction{
+        color: #6c757df8;
+  }
+  .towElementFirst{
+    position: relative;
+    top: -438px;
+  }
+  .textForFirstIcon{
+    padding: 0;
+  }
+  .firstFlex, .secondFlex,.threthFlex{
+    margin: 0px;
+}
+.debogo{
+    display: none;
+}
+.sectionFlexService{
+margin: 5px;
+}
+.textForFirstIcon,.textForFirstIcon1{
+    margin: 0 10px 0 2px;
+    position: relative;
+    top: -33px;
+    color: #80808078;
+}
+.secondImg{
+    display: none;
+
+}
+.titileServices{
+    font-size: 30px;
+}
+}
+  /* Medium */
+  @media (min-width: 992px) {
+   
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+ 
+    }
